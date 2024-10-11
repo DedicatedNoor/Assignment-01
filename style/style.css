@@ -7,22 +7,22 @@ body{
     font-family: "Poppins", sans-serif;
     
 }
-/* nav bar style  */
+/* navbar style  */
 .navbar{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 20px 100px;
+    justify-content: space-between;   
+    margin: 30px 120px;
 }
 .resume-btn{
+    font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
     padding: 12px 15px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 5px;
     color: rgb(12, 19, 35);
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: Poppins;    
     background-color: rgb(219, 219, 219);
 }
 
