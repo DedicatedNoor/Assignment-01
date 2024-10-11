@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+/* nav bar style  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+.resume-btn{
+    cursor: pointer;
+    padding: 12px 15px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 5px;
+    color: rgb(12, 19, 35);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(219, 219, 219);
+}
+
+#common-section-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.common-section-subtitle{
+    margin: 30px 35px;
+    text-align: center;
+    color: #080d18;
+    opacity: 0.7;    
+}
+.common-section-description{
+    opacity: 0.7;
+    color: #080d18;
+    margin: 20px 0;
+}
+.learn-more-tbn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #080d18;
+    cursor: pointer;
+    font-family: poppins;
+}
+
+.hero-bg{
+    height: 86vh;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hore-content{
+    width: 998px;
+    height: 581px;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+.heroDescription{
+    margin: 24px;
+}
+.btn-Color{
+    background-color: #000000;
+    color: white;
+}
+.btn-under{
+    text-decoration: none;
+}
+
+/* main section worked here  */
+main{
+    max-width: 1440px;
+    margin: 74px auto;
+}
+
+/* Why Web Development section start  */
+#why-web-dev-Section{
+    max-width: 1140px;
+    margin: 100px auto;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.codingHero-container{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 28px;
+}
+.codingHero-leftSide{
+    width: 70%;
+}
+.codingHero-rightSide{
+    width: 30%;
+}
+.codingHero-rightSide img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* inspiration section start  */
+#inspiration-Section{
+    margin: 100px auto;
+    padding: 20px 0 0 0;
+    width: 100%;
+    text-align: justify;
+    max-width: 1140px;   
+}
+.iframe-Video{
+    height: 600px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.iframe-Video iframe{
+    padding: 32px;
+}
+/* My Current Target section start here  */
+#my-current-target{
+    margin: 100px auto;
+    padding: 20px 0 0 0;
+    width: 100%;
+    text-align: justify;
+    max-width: 1140px;  
+} 
+.skills-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+.skill{
+    max-width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 2px 3px gray;
+    background: rgba(255, 75, 30, 0.052);
+}
+.skill-two{
+    background: rgba(0, 77, 232, 0.052);
+}
+.skill-three{
+    background: rgba(255, 221, 0, 0.052);
+}
+.skill-title{
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+.skill-description{
+    opacity: 0.7;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+.links{
+    font-weight: 700;
+    color: #080d18;
+}
+/* my next target section */
+.target-container{
+    border-radius: 16px;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+.target-dis{
+    opacity: 0.7;
+    margin: 24px 0;
+}
+
+/* i need support section start  */
+#support-container{
+    text-align: center;
+    color: white;
+    padding: 64px 48px;
+    height: 313px;
+    max-width: 1140px;
+    margin: auto;
+    border-radius: 16px;
+    background-image:linear-gradient(to left, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-content{
+    width: 650px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-subtitle{
+    opacity: 0.7;
+    margin: 24px;
+}
+form{
+    display: flex;
+    column-gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sent-btn{
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
+#some-text{
+    width: 80%;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+}
+/* main section end here  */
+
+/* footer section here  */
+#footer-section{
+    border-radius: 15px;
+    background: rgba(167, 167, 167, 0.159);
+}
+.footer-content{
+    max-width: 1140px;
+    margin: auto;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: 700;
+}
